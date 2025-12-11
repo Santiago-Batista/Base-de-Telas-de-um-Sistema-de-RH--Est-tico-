@@ -5,3 +5,8 @@ body, h1
 h1,a{
     color: blue;
 }
+body {
+
+    font-family: arial, sans-serif;
+    background: #ffffff00;
+}
