@@ -1,12 +1,75 @@
-body, h1
-{
-    text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
 }
-h1,a{
-    color: blue;
-}
-body {
 
-    font-family: arial, sans-serif;
-    background: #ffffff00;
+body {
+    background: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+
+
+h1 {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    text-align: center;
+    color: #004aad;
+    font-size: 28px;
+}
+
+
+form {
+    background: #fff;
+    padding: 30px;
+    width: 330px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    margin-top: 70px;
+}
+
+label {
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 18px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #004aad;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0,74,173,0.4);
+}
+
+form a:first-of-type {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: #004aad;
+    color: #fff;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
